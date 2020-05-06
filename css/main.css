@@ -1,5 +1,27 @@
+/* for å kunne bruke height percent på andre ting */
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
 p {
+    size: 200px;
     padding: 50px;
     margin: auto;
     color: brown;
+    box-sizing: border-box;
+}
+
+div {
+    width: 40%;
+    height: 0 auto;
+    background-color: beige;
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+    border: solid bisque 10px;
+    border-radius: 20px;
+    box-sizing: border-box; /* når width og height er satt: padding og border krymper innhold i stedet for å utvide */
+    word-wrap: break-word /*så text ikke går utenfor div */
 }

@@ -1,2 +1,2 @@
 console.log("en test");
-alert("OH MY GsdsdfOD");
+// alert("OH MY GOD");
